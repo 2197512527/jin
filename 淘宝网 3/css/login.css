@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bigbox {
+    margin: 0 auto;
+}
+
+.navbar-default {
+    background-color: white !important;
+    border-radius: 0 0 !important;
+    border-bottom: 4px solid tomato;
+    box-shadow: rgb(139, 139, 139) 4px 4px 20px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../images/bgc_login.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loginBox {
+    text-align: center;
+    width: 350px;
+    min-height: 350px;
+    background-color: rgba(234, 234, 234, 0.8);
+    border-radius: 10px 10px;
+    box-shadow: gray 5px 5px 20px;
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-45%);
+}
+
+.oniput {
+
+    margin-top: -20px;
+}
+
+.oniput label {
+
+    font-size: 20px;
+}
+
+.po {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+
+}
+
+.wrong {
+    color: red;
+
+}
+
+.right {
+    color: rgb(5, 117, 5);
+}
+
+.userCardBox,
+.userPasbox {
+    width: 250px;
+    height: 34px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.eye img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+}
+
+.oniput .userCardBox {
+    margin-top: 50px;
+}
+
+.userCardBox input {
+    outline: none;
+    height: 34px;
+    width: 250px;
+    text-indent: 3em;
+    margin-bottom: 20px;
+    position: relative;
+    border: none;
+}
+
+.userPasbox input {
+    outline: none;
+    height: 34px;
+    width: 250px;
+    text-indent: 3em;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+.submitbox .subBtn {
+    border-radius: 3px;
+    width: 250px;
+    height: 34px;
+    background-color: #FF4400;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.submitbox .subBtn:hover {
+    background-color: rgb(235, 4, 4);
+}
+
+.glyphicon-user {
+    background-color: #CCCCCC;
+    line-height: 34px;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-51%);
+}
+
+.glyphicon-lock {
+    background-color: #CCCCCC;
+    line-height: 34px;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-51%);
+}
+
+.more {
+    margin-top: 20px;
+    font-size: 10px;
+}
